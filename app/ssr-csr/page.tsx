@@ -4,7 +4,7 @@ async function getComponent(){
     const data = await respon.json();
     return data;
 }
-export default async function page() {
+export default async function Page() {
     const component = await getComponent();
 
   return (

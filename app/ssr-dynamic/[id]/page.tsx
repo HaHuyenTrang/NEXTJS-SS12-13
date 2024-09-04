@@ -11,7 +11,7 @@ async function getDynamic(){
     const data = await respon.json();
     return data;
 }
-export default async function page(props:Props) {
+export default async function Page(props:Props) {
     const {params}=props
     const idDynamic = await getDynamic()
   return (

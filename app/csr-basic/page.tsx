@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
     const [users, setUsers]=useState([])
     useEffect (()=>{
         const getUser = async ()=>{
@@ -12,7 +12,7 @@ export default function page() {
         getUser();
     })
   return (
-    <div>Danh sách người dùng(CSR)
+    <div>Danh sách người dùng!!!(CSR)
         {users.map((item:any)=>{
             return <ul key={item.id}>
                 <li>id: {item.id}</li>

@@ -5,7 +5,7 @@ import React from 'react'
     const data = await respon.json();
     return data;
 }
-export default async function page() {
+export default async function Page() {
     const user= await getUser();
   return (
     <div>server

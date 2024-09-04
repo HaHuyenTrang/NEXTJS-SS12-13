@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
     // call api lấy dữ liệu 
     const [user,setUser]= useState ([])
     useEffect(()=>{

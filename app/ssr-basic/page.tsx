@@ -5,7 +5,7 @@ async function getUserId() {
     const data = await respon.json();
     return data;
 }
-export default async function page() {
+export default async function Page() {
     const userId = await getUserId()
     console.log(userId);
     
