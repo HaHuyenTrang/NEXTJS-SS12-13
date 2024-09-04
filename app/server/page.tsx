@@ -10,7 +10,7 @@ export default async function Page() {
   return (
     <div>server
         {user.map((item:any)=>{
-            return <li>{item.name}</li>
+            return <li key={item.id}>{item.name}</li>
         })}
     </div>
   )
